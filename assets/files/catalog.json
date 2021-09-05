@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id":1,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":2,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":3,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":4,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":5,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":6,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":7,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":8,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":9,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":10,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":11,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    },
+    {
+      "id":12,
+      "name":"iphone 12 pro max",
+      "desc":"generation",
+      "price":999,
+      "image":"https://as2.ftcdn.net/v2/jpg/03/86/91/39/1000_F_386913999_HRVUC15dXvVTCI4OmT6wbqmGNPoo9g7G.jpg",
+      "color": "#33505a"
+    }
+  ]
+}
