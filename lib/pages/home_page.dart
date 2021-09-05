@@ -11,8 +11,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 10;
     return Scaffold(
+
       appBar: AppBar(
-        title: Text("catalog app"),
+        title: Text("catalog app")
+
       ),
       drawer: MyDrawer(),
       body: Center(
