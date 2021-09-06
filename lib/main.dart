@@ -1,3 +1,4 @@
+//@dart=2.9
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/utils/routes.dart';
@@ -19,8 +20,9 @@ class MyApp extends StatelessWidget {
         themeMode: ThemeMode.light,
         theme: MyTheme.lightTheme(context),
       darkTheme:MyTheme.darkTheme(context),
-
+         initialRoute: MyRoutes.homeRoute,
       routes: {
+
       "/": (context)=> LoginPage(),
         MyRoutes.homeRoute: (context)=>HomePage(),
         MyRoutes.loginRoute: (context)=>LoginPage(),
