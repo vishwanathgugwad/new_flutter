@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_catalog/models/catalog.dart';
+import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/drawer.dart';
 import 'package:flutter_catalog/widgets/home_widgets/catalog_header.dart';
 import 'package:flutter_catalog/widgets/home_widgets/catalog_list.dart';
@@ -46,7 +47,14 @@ class _HomePageState extends State<HomePage> {
     /*final dunmmyList = List.generate(20, (index)=>CatalogModel.items[0]);*/
 
     return Scaffold(
-      backgroundColor: MyTheme.creamColor,
+
+      floatingActionButton: FloatingActionButton(onPressed:(){
+          Navigator.pushNamed(context, MyRoutes.cartRoute);
+      },
+        backgroundColor: context.theme.buttonColor,
+      child:Icon(CupertinoIcons.cart,
+      color: Colors.white,) ,),
+      backgroundColor: context.canvasColor,
 
       // appBar: AppBar(
       //   title: Text("catalog app")

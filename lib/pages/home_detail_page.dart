@@ -11,20 +11,22 @@ final Item catalog;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      backgroundColor: MyTheme.creamColor,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
+      backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: Vx.mOnly(right: 16),
           children: [
             "\$${catalog.price}".text.red800.bold.xl4.make(),
-            ElevatedButton(onPressed: (){}, child: "Buy".text.make(),style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(MyTheme.darkBluishColor),
+            ElevatedButton(onPressed: (){}, child: "Add to cart".text.make(),style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(context.theme.buttonColor),
                 shape: MaterialStateProperty.all(StadiumBorder())
             ),
-            ).wh(100, 50)
+            ).wh(120, 50)
           ],
         ).p(32),
       ),
@@ -42,12 +44,16 @@ final Item catalog;
               arcType: VxArcType.CONVEY,
               edge: VxEdge.TOP,
               child: Container(
-                color: Colors.white,
+                color: context.cardColor,
                 width: context.screenWidth,
                 child: Column(
                   children: [
-                    catalog.name.text.xl4.color(MyTheme.darkBluishColor).bold.make(),
-                    catalog.desc.text.xl.textStyle(context.captionStyle).make(),
+                    catalog.name.text.xl4.color(context.accentColor).bold.make(),
+                    catalog.desc.text.xl.textStyle(context.captionStyle).make(),10.heightBox,
+                    "When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being maintained".text
+
+                        .textStyle(context.captionStyle).make().p16(),
+
                   ],
                 ).py(64),
               ),
